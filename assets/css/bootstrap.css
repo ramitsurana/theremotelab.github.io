@@ -192,9 +192,7 @@ th {
     box-shadow: none !important;
   }
   a,
-  a:visited {
-    text-decoration: underline;
-  }
+ 
   a[href]:after {
     content: " (" attr(href) ")";
   }
@@ -291,16 +289,8 @@ a {
   color: #428bca;
   text-decoration: none;
 }
-a:hover,
-a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
+
+
 figure {
   margin: 0;
 }
@@ -3521,7 +3511,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
+
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
@@ -3563,7 +3553,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ddd;
+
 }
 @media (min-width: 768px) {
   .nav-tabs.nav-justified > li > a {
@@ -3631,7 +3621,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs-justified > .active > a,
 .nav-tabs-justified > .active > a:hover,
 .nav-tabs-justified > .active > a:focus {
-  border: 1px solid #ddd;
+
 }
 @media (min-width: 768px) {
   .nav-tabs-justified > li > a {
@@ -4444,14 +4434,16 @@ a.list-group-item.active > .badge,
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 15px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #fff;
+  background-color: #eee;
   border: 1px solid #ddd;
   border-radius: 4px;
+  text-align: center;
   -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -5226,7 +5218,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 400px;
     margin: 30px auto;
   }
   .modal-content {
