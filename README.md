@@ -1,6 +1,6 @@
 # We are your remote lab!
  
-Our Mantra: Automate Yourself Out of a Job. 
+Our Mantra: Automate yourself out of a job. 
 
 ## Enterprise DevOps
 
