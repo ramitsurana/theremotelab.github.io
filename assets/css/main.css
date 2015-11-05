@@ -24,6 +24,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    font-family: "ProxLight","Helvetica Neue Light","Helvetica Neue",Arial,sans-serif;
 }
 
 /*
@@ -84,7 +85,6 @@ body {
 }
 
 body {
-    font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -163,8 +163,7 @@ hr:before {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 300;
+    font-family:"ProxReg","Helvetica Neue",Arial,sans-serif;
     color: rgba(247, 118, 53, 1);
 }
 
@@ -197,9 +196,7 @@ em {
 pre {
     background: #ebebeb;
     border: none;
-    font-family: "Monaco";
-    font-size: 16px;
-    color: #666;
+    font-family:"ProxReg","Helvetica Neue",Arial,sans-serif;   color: #666;
     padding: 20px;
     line-height: 28px;
 }
@@ -615,8 +612,7 @@ a:after {
 }
 
 .service-active p {
-	font-family: 'Lato', sans-serif;
-	padding-top: 10px;
+	font-family:"ProxReg","Helvetica Neue",Arial,sans-serif; p: 10px;
 }
 
 .service-content {
@@ -1344,7 +1340,7 @@ a:after {
 .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; }
 .box > .icon > .info > h3.title {color: #555; font-weight: 500; }
 .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
-.box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon > .info > .more a { font-family:"ProxReg","Helvetica Neue",Arial,sans-serif; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
 .box > .icon:hover > .info > .more > a { color: #555; padding: 6px 8px; background-color: #63B76C; }
 .box .space { height: 30px; }
 .box > .icon > ul:hover {color: #555!important;}
