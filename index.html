@@ -29,6 +29,7 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     <script src="https://cdn.firebase.com/js/client/2.2.7/firebase.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
    
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -59,6 +60,7 @@
 			<li><a href="#about" class="smoothScroll">WHAT WE DO</a></li>
 			<li><a href="#offerings" class="smoothScroll">OFFERINGS</a></li>			
             <li><a href="#blog" class="smoothScroll"> LAB</a></li>
+            <li><a href="#ass" class="smoothScroll" style="color:#E56625"> ASSESSMENT</a></li>
 			<li><a href="http://theremotelab.io/blog" target="_blank" class="smoothScroll"> BLOG</a></li>         
 			<li><a href="#careers" class="smoothScroll">CAREERS</a></li>
 			<li><a href="#contact" class="smoothScroll"> CONTACT US</a></li>
@@ -722,11 +724,12 @@
 			</div>
 		</div>
 </div>
-
+<br>
+<br>
 		</div><!-- container -->
 		
 
-<div class="greywraper section bottom_rel lightgrey" id="careers" name="careers">
+<div class="greywraper section bottom_rel lightgrey" id="ass" name="ass">
 <div class="crop noshow tr_left tr_white"></div>
 <br>
 <br>
@@ -752,6 +755,10 @@
         </div> 
         <div class="stepwizard-step">
             <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+           
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-5" type="button" class="btn btn-default btn-circle" disabled="disabled">5</a>
            
         </div>
         </div>
@@ -785,24 +792,24 @@
                 <div class="form-group">
                   <div class="funkyradio">
                       <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox5" />
+                    <input type="radio" name="Q1" id="checkbox5" value="Never (We don't di it)"/>
                     <label for="checkbox5">Never (We don't di it)</label>
                     <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox6" />
+                    <input type="radio" name="Q1" id="checkbox6" value="Ocassionally (We do it in a ad hoc fashion)"/>
                     <label for="checkbox6">Ocassionally (We do it in a ad hoc fashion)</label>
                     </div>
                              <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox7" />
+                    <input type="radio" name="Q1" id="checkbox7" value="Indivisual Projects (We do it consistently for specific projects)" />
                     <label for="checkbox7">Indivisual Projects (We do it consistently for specific projects)</label>
                 </div>
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox8" />
+                    <input type="radio" name="Q1" id="checkbox8" value="Enterprise Standard" />
                     <label for="checkbox8">Enterprise Standard</label>
                 </div>
         </div>
         </div>
         </div>
-        <button class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
+        <button  id="next1" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
             </div>
         </div>
     </div>
@@ -819,24 +826,24 @@
                 <div class="form-group">
                 <div class="funkyradio">
                     <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox9" />
+                    <input type="radio" name="Q2" id="checkbox9" value="Never (We don't di it)"/>
                     <label for="checkbox9">Never (We don't di it)</label>
                     <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox10" />
+                    <input type="radio" name="Q2" id="checkbox10" value="Ocassionally (We do it in a ad hoc fashion)" />
                     <label for="checkbox10">Ocassionally (We do it in a ad hoc fashion)</label>
                     </div>
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox11" />
+                    <input type="radio" name="Q2" id="checkbox11" value="Indivisual Projects (We do it consistently for specific projects)"  />
                     <label for="checkbox11">Indivisual Projects (We do it consistently for specific projects)</label>
                 </div>
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox12" />
+                    <input type="radio" name="Q2" id="checkbox12" value="Enterprise Standard"/>
                     <label for="checkbox12">Enterprise Standard</label>
                 </div>
                  </div>
         </div>
         </div>
-         <button class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
+         <button id="next2" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Next</button>
         </div>
     </div>
     </div>
@@ -854,18 +861,18 @@
                 <div class="form-group">
                 <div class="funkyradio">
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox55" />
+                    <input type="radio" name="Q3" id="checkbox55" value="Never (We don't di it)"/>
                     <label for="checkbox55">Never (We don't di it)</label>
                     <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox66" />
+                    <input type="radio" name="Q3" id="checkbox66" value="Ocassionally (We do it in a ad hoc fashion)"/>
                     <label for="checkbox66">Ocassionally (We do it in a ad hoc fashion)</label>
                     </div>
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox77" />
+                    <input type="radio" name="Q3" id="checkbox77" value="Indivisual Projects (We do it consistently for specific projects)"/>
                     <label for="checkbox77">Indivisual Projects (We do it consistently for specific projects)</label>
                 </div>
                 <div class="funkyradio-success">
-                    <input type="checkbox" name="checkbox" id="checkbox88" />
+                    <input type="radio" name="Q3" id="checkbox88" value="Enterprise Standard" />
                     <label for="checkbox88">Enterprise Standard</label>
                 </div>
         </div>
@@ -873,8 +880,17 @@
         <p>Please enter your e-mail here</p>
        <input type="email" class="form-control" id="ass_email"  autocomplete="off" name="email" placeholder="Email" required>
         </div>
-         <button class="btn btn-info nextBtn btn-sm pull-right" type="button" >Submit</button>
+         <button id="submit" class="btn btn-info nextBtn btn-sm pull-right" type="button" >Submit</button>
             </div>
+        </div>
+    </div>
+        <div class="row setup-content" id="step-5">
+        <div class=" col-xs-offset-1 col-xs-10 col-xs-offset-1">
+            <div class=" col-md-offset-1 col-md-10 col-xs-offset-1" > 
+                
+                <h3 style="text-align:center;color:#333">Thank You! you have successfully completed your Assessment.</h3>
+                <br>
+                <br>
         </div>
     </div>
 </form>
@@ -890,7 +906,7 @@
   		
 	
 		<!-- ==== GREYWRAP ==== -->
-		<div class="greywraper section bottom_rel lightgrey" id="careers" name="careers">
+		<div class=" section bottom_rel " id="careers" name="careers">
 		<div class="crop noshow tr_left tr_white"></div>
 			<br>
 			<br>
@@ -1219,8 +1235,10 @@ $(document).ready(function () {
 
 //fire base code integration 
 //create firebase reference
-var dbRef = new Firebase("https://theremotelab.firebaseio.com/");
-var contactsRef = dbRef.child('contacts')
+var myFirebaseRef = new Firebase("https://trldb.firebaseio.com/");
+var contactsRef = myFirebaseRef.child('contacts');
+var assessment_data = myFirebaseRef.child('Ass_user_info');
+var assObj = [];
 // alert("hi firebase");
  
 //save contact
@@ -1234,15 +1252,37 @@ $('.addValue').on("click", function( event ) {
           phone: $('#mobile').val(),
           message: $('#message').val()     
         })
-       // contactForm.reset();
-       // $('#formModal').modal('close');
-       // $('#successModal').modal('show');
        alert('You have successfully Subscribed to our weekly Newsletter and stay tuned.');
     } else {
-      //alert('Please enter your email address!');
-    //  $('#errorModal').modal('show');
+        alert('ERROR: please try again after some time');
     }
   });
+
+$('#next1').on("click", function( event ){
+    assObj
+        .push({
+          Q1: 'We use short-lived branches for developing new features',
+          Ans: $('input[name=Q1]:checked').val()
+        });
+});
+$('#next2').on("click", function( event ){
+     assObj
+        .push({
+          Q2: 'We check in changes to master at least daily',
+          Ans: $('input[name=Q2]:checked').val()
+        });
+});
+$('#submit').on("click", function( event ){
+     assObj
+        .push({
+          Q3: 'We have the ability to deploy changes multiple times per day',
+          Ans: $('input[name=Q3]:checked').val(),
+          user_email: $('#ass_email').val()
+        });
+        assessment_data.push({assObj});
+});
+
+
 
 $('#experiment1').click(function() {
     $.featherlight('#fl2');
